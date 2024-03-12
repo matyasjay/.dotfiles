@@ -9,7 +9,7 @@ bind r source-file ~/.tmux.conf \; display ".tmux.conf reloaded"  \; \
         source-file $HOME/.dotfiles/lib/configurations/tmux/linux                         \; \
         source-file $HOME/.dotfiles/lib/configurations/tmux/navigation                    \; \
         source-file $HOME/.dotfiles/lib/configurations/tmux/panes                         \; \
-        source-file $HOME/.dotfiles/lib/configurations/tmux/panes                         \; \
+        source-file $HOME/.dotfiles/lib/configurations/tmux/theme                         \; \
         source-file $HOME/.dotfiles/lib/configurations/tmux/plugins                       \;
 
 source-file $HOME/.dotfiles/lib/configurations/tmux/default
