@@ -1,5 +1,8 @@
-!git/
-!htop/
-!nvim/
-!tmux/
-!yarn/
+AWS*
+configstore
+gh
+github-copilot
+iterm2
+simple-update-notifier
+yarn
+zed
