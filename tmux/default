@@ -1,0 +1,12 @@
+set -g default-terminal "screen-256color"
+if 'infocmp -x tmux-256color > /dev/null 2>&1' 'set -g default-terminal "tmux-256color"'
+
+bind C-a send-prefix -2
+set -g history-limit 102400
+set -g prefix2 C-a
+set -g set-clipboard on
+set -s escape-time 10
+set -s focus-events on
+set -sg repeat-time 600
+setw -g xterm-keys on
+setw -q -g utf8 on

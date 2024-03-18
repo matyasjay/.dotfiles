@@ -1,0 +1,4 @@
+set-option -g pane-base-index 1
+bind-key q kill-pane
+bind -n M-c kill-pane \; select-layout
+bind -n M-n split-window \; select-layout
